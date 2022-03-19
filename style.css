@@ -1,0 +1,58 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+header, footer {
+    text-align: center;
+    flex: 4;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+#aside1 {
+  text-align: center;
+  border: 2px solid black;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+.flex-container {
+    background-color: rgba(255, 0, 0, .5);
+    padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1, h2 {
+    color: blue;
+  }
+  p {
+    display: block;
+    margin-block-start: 1em;
+  }
+  ul {
+    border: 2px solid gray;
+  }
+  ol {
+    border: 2px solid blue;
+  }
+  ol, ul {
+    padding: 5px 20px;
+    border-radius: 4px;
+  }
+  h1, strong {
+    color: purple; /* This cancels out our style change in h1, h2 */
+  }
+  
+  em {
+    color: gray;
+  }

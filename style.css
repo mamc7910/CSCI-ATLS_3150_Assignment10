@@ -10,7 +10,8 @@ header, footer {
     flex: 4;
     padding: 20px;
     border: 2px solid black;
-    max-width: 1200px;
+    max-width: 1160px;
+    margin: 0 auto;
 }
 
 #aside1 {
